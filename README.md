@@ -28,8 +28,11 @@ Grab the newest installer from
 |---|---|---|
 | macOS (Apple Silicon) | `.dmg` — `aarch64` | Available |
 | macOS (Intel) | — | Later |
-| Windows | — | Planned for v1.1 |
+| Windows 10 and 11 (x64) | `.exe` (setup) or `.msi` — `x64` | Early build: most modules still need macOS; full support in v1.1 |
 | Linux | — | Planned for v1.3 |
+
+The Windows installers are not code-signed yet, so SmartScreen may stop the
+first launch: choose **More info**, then **Run anyway**.
 
 ## What it looks like
 
